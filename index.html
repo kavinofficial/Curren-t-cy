@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curren(t)cy</title>
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzgfiAAYQwtPUZxIH6WJAyu_WAfuZbGxoXVw&usqp=CAU" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+    </style>
+  </head>
+  <body>
+    <div class="out">
+      <div class="in">
+        <h3>Currency Converter</h3>
+          <div class="imp">
+            <select name="from" id="from" class="recent"></select>
+            <button class="bton" id="bton">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5zm14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5z"/>
+                </svg>
+            </button>
+            <select name="to" id="to" class="recent">
+            </select>
+          </div>
+        <div class="imp">
+          <input type="number" class="num" id="fin">
+          <input type="number" class="num" id="sin">
+        </div>
+        <button class="convert" id="convert">CONVERT</button>
+        <script src="./script.js"></script>
+  </body>
+</html>

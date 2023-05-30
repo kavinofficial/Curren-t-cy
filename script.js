@@ -112,7 +112,7 @@ convert.addEventListener("click", () => {
         alert("Check if both format of the currency are different")
       );
   }
-  //ap();
+  ap();
 });
 let interchange = document.getElementById("bton");
 //

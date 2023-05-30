@@ -6,41 +6,41 @@
 //   1.350202, 34.73005, 19.972935, 1, 19.659913,
 // ];
 // let link = `https://api.freecurrencyapi.com/v1/latest?apikey=oeyo8n3crITsD4Ac0Lg6KrVkzn6fi1T1rxo3lfFI`;
-// let names = [
-//   "Australlia",
-//   "Bulgaria",
-//   "Brazil",
-//   "Canada",
-//   "Switzerland",
-//   "China",
-//   "Czechia",
-//   "Denmark",
-//   "Euro Countries",
-//   "Sterling pound Countries",
-//   "Hong Kong",
-//   "Croatia",
-//   "Hungary",
-//   "Indonesia",
-//   "Israeli /Shekel",
-//   "India/Bhutan",
-//   "Iceland",
-//   "Japan",
-//   "Korea",
-//   "Mexico",
-//   "Malaysia",
-//   "Norwegian KroneCountries",
-//   "New Zealand",
-//   "Philippines",
-//   "Poland",
-//   "Romanian Leu",
-//   "Russian Ruble",
-//   "Sweden",
-//   "Singapore",
-//   "Thailand",
-//   "Turkish lira",
-//   "United States",
-//   "South Africa",
-// ];
+let names = [
+  "Australlia",
+  "Bulgaria",
+  "Brazil",
+  "Canada",
+  "Switzerland/Liechtenstein",
+  "China",
+  "Czechia",
+  "Denmark",
+  "Euro Countries",
+  "Sterling pound Countries",
+  "Hong Kong",
+  "Croatia",
+  "Hungary",
+  "Indonesia",
+  "Israeli /Shekel",
+  "India/Bhutan",
+  "Iceland",
+  "Japan",
+  "Korea",
+  "Mexico",
+  "Malaysia",
+  "Norwegian Krone Countries",
+  "New Zealand",
+  "Philippines",
+  "Poland",
+  "Romanian Leu",
+  "Russian Ruble",
+  "Sweden",
+  "Singapore",
+  "Thailand",
+  "Turkish lira",
+  "United States",
+  "South African Rand Countries",
+];
 let country = [
   "AUD",
   "BGN",
@@ -78,7 +78,7 @@ let country = [
 ];
 let newoption = document.querySelectorAll(".recent");
 for (var i = 0; i < country.length; i++) {
-  let op = `<option value="${country[i]}" id="${country[i]}">${country[i]}</option>`;
+  let op = `<option value="${country[i]}" id="${country[i]}">${names[i]}</option>`;
   newoption[0].innerHTML += op;
   newoption[1].innerHTML += op;
 }

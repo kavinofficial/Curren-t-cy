@@ -7,7 +7,7 @@ body{
     background-attachment: fixed;
 }
 h3{
-    color: rgb(56, 52, 52);
+    color: rgb(0, 0, 0);
     margin-top: 40px;
     font-family: 'Great Vibes', cursive;
     font-size: 40px;
@@ -18,12 +18,13 @@ h3::first-letter{
     font-size: 90px;
 }
 .out{
-    width: 70%;
+    width: 75%;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 15px;
     max-width: 600px;
-    min-width: 400px;
-    background-color: rgb(144, 163, 99);
+    min-width: 300px;
+    background-color: rgb(116, 132, 78);
+    margin: 5%;
 }
 .in{
     text-align: center;
@@ -49,13 +50,13 @@ h3::first-letter{
 #fin{
     margin-top: -50px;
     margin-right: 100px;
-    width: 45%;
+    width: 70%;
     text-align: center;
     /* border-color: rgb(144, 163, 99); */
 }
 #sin{
     margin-top: -50px;
-    width: 50%;
+    width: 70%;
     text-align: center;
     /* border-color: rgb(144, 163, 99); */
 }
@@ -76,10 +77,11 @@ h3::first-letter{
     color: #000000;
 }
 .bton:hover{
-    background-color: rgb(255, 255, 255);
-    border-color: rgb(144, 163, 99);
+    background-color: rgb(144, 163, 99);
+    border-color: rgb(255, 255, 255);
 }
 select{
     height: 30px;
     border-color: rgb(144, 163, 99);
+    width: 50%;
 }
